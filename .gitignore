@@ -1,0 +1,26 @@
+# Icarus Verilog
+*.vvp
+*.vcd
+
+# Vivado / xsim
+.Xil/
+xsim.dir/
+*.jou
+*.log
+*.pb
+*.wdb
+*.str
+webtalk*
+vivado*.backup.jou
+vivado*.backup.log
+
+# ModelSim / Questa
+work/
+*.wlf
+transcript
+modelsim.ini
+
+# OS / editor
+.DS_Store
+.vscode/
+*.swp

@@ -191,6 +191,11 @@ module tb_cordic_top;
     endtask
 
     initial begin
+    $dumpfile("waves.vcd");
+    $dumpvars(0, tb_cordic_top);
+end
+
+    initial begin
         rst = 1; start = 0; angle_in = 0;
         repeat (3) @(negedge clk);
         rst = 0;
